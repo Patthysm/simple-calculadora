@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+:root{
+    --laranja:#fb8b24;
+    --laranja-claro: #e9c46a;
+    --branco:#ffecd1;
+    --azul:#15616d;
+    --font-principal: "Kavoon", serif;
+    --vermelho:#78290F;
+    --azul-claro:#8ecae6;
+}
+
+body {
+    padding: 20px 0;
+    font-family: var(--font-principal);
+    background-color: var(--azul-claro);
+}
+.container-principal{
+    text-align: center;
+}
+.numeros{
+    padding: 1rem 2rem;
+    background-color: var(--branco);
+    color: var(--vermelho);
+    border: 0.2rem solid var(--vermelho);
+    font-size: 2rem;
+
+}
+.butoes{
+    display: flex;
+    flex-direction: column;
+}
+#num1, #num2{
+    margin: 0 auto;
+    width: 400px;
+}
+#adicao, #subtracao, #divisao, #multiplicacao{
+    background-color: var(--laranja);
+    text-transform: uppercase;
+}
+#adicao:hover{
+    background-color: var(--laranja-claro);
+    padding: 1.2rem;
+}
+#subtracao:hover{
+    background-color: var(--laranja-claro);
+    padding: 1.2rem;
+}
+#divisao:hover{
+    background-color: var(--laranja-claro);
+    padding: 1.2rem;
+}
+#multiplicacao:hover{
+    background-color: var(--laranja-claro);
+    padding: 1.2rem;
+}
+span {
+    border-bottom: 2px solid black;
+    padding: 4px;
+    background-color: var(--branco);
+    
+}
+
+button {
+    margin: 20px 0;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 8px;
+    border: 0.1rem solid var(--vermelho);
+    color: var(--vermelho);
+}
+.resultado{
+    padding: 1rem 2rem;
+    background-color: var(--branco);
+    text-transform: uppercase; 
+    font-size: 1.2rem;
+    border: 0.2rem solid var(--vermelho);
+    color: var(--vermelho);
+    line-height: 2rem;
+}
+.foto-nazare{
+    width: 25rem;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body> 
+    <div class="container-principal">
+        <h1 class="titulo"> Calculadora</h1>
+        <div class="numeros">
+            <span id="num1"></span>
+            <span id="num2"></span>
+        </div>
+        <div class="butoes">
+            <button id="adicao" onclick="add()"> Adição ➕</button>
+            <button id="subtracao" onclick="sub()">Subtração ➖</button>
+            <button id="divisao" onclick="div()">Divisão ➗</button>
+            <button id="multiplicacao" onclick="mult()">Multiplicação ✖️</button>
+        </div>
+          <p class="resultado">resultado : <span id="total"> </span></p>  
+          <img class="foto-nazare" src="./img/math.webp" alt="Nazare Tedesco confusa com Matematica">
+    </div> 
+        <script src="index.js"></script>
+</body>
+</html>
